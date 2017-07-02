@@ -1,0 +1,8 @@
+Bonusy:
+1. k³adka roœnie	3
+2. k³adka maleje	4
+3. kulka roœnie		3
+4. kulka maleje		4
+5. kulka zwalnia	2
+6. kulka przyspiesza	2
+7. kolejna kulka	1

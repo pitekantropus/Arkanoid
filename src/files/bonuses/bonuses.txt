@@ -1,0 +1,9 @@
+###BONUSES###
+#
+1;3;bigBar.png;MEGA BAR!!!
+2;4;smallBar.png;small bar
+3;3;bigBall.png;MEGA BALL!!!
+4;4;smallBall.png;small ball
+5;2;slowBall.png;slow ball
+6;2;fastBall.png;FAST BALL!!!
+7;3;rowDown.png;BLOCKS DOWN!!!
