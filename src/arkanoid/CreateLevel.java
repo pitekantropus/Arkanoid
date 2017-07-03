@@ -105,7 +105,6 @@ public class CreateLevel extends ActionField {
                             be.getState() + "\r\n";
                     lines.add(temp);
                     temp = "";
-                    System.out.print("zapis linii");
                 }
             }
         }

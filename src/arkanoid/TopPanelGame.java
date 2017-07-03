@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 public class TopPanelGame extends JudgePanel {
     private int points, lifes;
     private JLabel lifesLabel, lifesCount, pointsLabel, pointsCount,
-            bonusLabel, bonusText, fpsLabel;
+            bonusLabel, bonusText;
     
     public TopPanelGame(int width, int height) {
         super(width, height);
@@ -51,16 +51,12 @@ public class TopPanelGame extends JudgePanel {
         bonusLabel = new StdLabel("bonus", 60, "right");
         bonusText = new StdLabel("", 200, "left");
         
-        fpsLabel = new StdLabel("",80, "left");
-        
         panelLeft.add(pointsLabel);
         panelLeft.add(pointsCount);
         panelLeft.add(lifesLabel);
         panelLeft.add(lifesCount);
         panelLeft.add(bonusLabel);
         panelLeft.add(bonusText);
-        
-        panelRight.add(fpsLabel);
     }
     
     @Override
@@ -93,10 +89,5 @@ public class TopPanelGame extends JudgePanel {
     @Override
     public int getBricks() {
         return 1;
-    }
-    
-    @Override
-    public void showFps(long fps) {
-        fpsLabel.setText("" + fps);
     }
 }

@@ -82,12 +82,11 @@ public class GameField extends ActionField {
             update(g2d);
             repaint();
             long delta = System.currentTimeMillis() - currentTime;
-            judge.getJudgePanel().showFps(delta);
             try {
                 Thread.sleep(DELAY - delta);
             }
             catch(Exception ex) {
-                System.err.println(ex);
+                //System.err.println(ex);
             }
         }
     }

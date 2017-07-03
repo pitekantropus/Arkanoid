@@ -60,6 +60,4 @@ public abstract class JudgePanel extends JPanel {
     public abstract void addBricks(int dBricks);
     
     public abstract int getBricks();
-    
-    public void showFps(long fps) { };
 }
